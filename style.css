@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #222222;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+}
+
+.header-container{
+    width: 100vw;
+    height: 100vh;
+    background: url(background.png);
+}
+
+.title{
+    width: 100vw;
+    color: #cacaca 
+}
+
+.profile{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.profile h1{
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5vw;
+    color:white;
+}
+.profile h2{
+    font-size: 20px ;
+    margin-left: 5vw;
+    color: #cacaca;
+}
+
+.social_media{
+
+    display: flex;
+    margin-left: 5vw;
+    color: #cacaca;
+    width: 160px;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+.social_media div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social_media a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: #cacaca;
+}
+
+
+main{
+    width: 100vw;
+    height: 100vh;
+  /*   background-color: blue ; */
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.container{
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+}
+
+.project{
+    width: 350px;
+    height: 220px;
+    background-color: white;
+   
+    
+}
+
+
+.project img{
+    width: 350px;
+    height: 220px;
+    transition: 6000;
+    
+}
+
+
+.project_titulo{
+    background: #dddddd;
+    text-align: center;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: MontSerrat,Tahoma,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -.5px;
+    color: #8a8a8a;
+ 
+ }
+
+ .my_projects{
+     height: 90vh;
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+ 
+
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    background: #303030;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

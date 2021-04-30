@@ -1,0 +1,84 @@
+@media only screen and (max-width: 400px){
+
+    header {
+        height: 70vh;
+    }
+    .header-container {
+        height: 70vh;
+        display: flex;
+        align-items: center;
+    }
+    .header-container h1{
+        font-size: 2.5rem;
+    }
+    .profile{
+        width: 98vw;
+    }
+    .my_projects{
+        width: 100vw;
+        height: auto;
+    }
+    .project{
+        width: 95vw;
+        margin-bottom: 5rem;
+    }
+
+    .project img{
+        width: 100%;
+    }
+  footer {
+        position: fixed;
+        bottom:0;
+        left:0;
+    }
+  }
+
+
+  @media only screen and (min-width:401px) 
+  and (max-width: 600px){
+
+    .my_projects{
+        height: auto;
+    }
+.project{
+    width: 95vw;
+    height: 55vh;
+    margin-bottom: 5rem;
+}
+.project img{
+    width: 100%;
+    height: 100%;
+}
+
+
+footer {
+    position: fixed;
+    bottom:0;
+    left:0;
+}
+
+  }
+
+
+
+
+  @media only screen and (min-width:601px) 
+  and (max-width: 786px){
+.my_projects{
+    height: auto;
+}
+.project{
+    width: 95vw;
+    height: 60vh;
+    margin-bottom: 10vw;
+}
+.project img{
+    width: 100%;
+    height: 100%;
+}
+footer {
+    position: fixed;
+    bottom:0;
+    left:0;
+} 
+  }
