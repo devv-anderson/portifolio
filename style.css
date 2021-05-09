@@ -90,16 +90,33 @@ main{
 }
 
 .project{
+    position: relative;
     width: 350px;
     height: 220px;
     transition: 300ms;
     
 }
 
-.project:hover{
-    width: 360px;
-    height: 230px;
-    
+.image__overlay{
+    position: absolute;
+    top: 26px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+}
+.description{
+    text-align: center;
+}
+
+.image__overlay:hover{
+    opacity: 1;
 }
 
 
